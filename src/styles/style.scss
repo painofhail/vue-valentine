@@ -1,0 +1,14 @@
+@import 'global/global.scss';
+@import 'elements/elements.scss';
+@import 'components/components.scss';
+@import 'props/props.scss';
+
+body {
+	min-width: 576px;
+}
+
+.heart-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
